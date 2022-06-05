@@ -1,4 +1,3 @@
-/*----------Custom radio button----------*/
 .control-group {
 	display: inline-block;
 	width: 200px;
@@ -10,7 +9,6 @@
 	background: #ffffff;
 	box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
-
 .control {
 	font-size: 18px;
 	position: relative;
@@ -19,13 +17,11 @@
 	padding-left: 30px;
 	cursor: pointer;
 }
-
 .control input {
 	position: absolute;
 	z-index: -1;
 	opacity: 0;
 }
-
 .control__indicator {
 	position: absolute;
 	top: 2px;
@@ -38,22 +34,16 @@
 .control--radio .control__indicator {
 	border-radius: 50%;
 }
-
-/* Hover and focus states */
 .control:hover input ~ .control__indicator,
 .control input:focus ~ .control__indicator {
 	background: #cccccc;
 }
-
-/* Checked state */
 .control input:checked ~ .control__indicator {
 	-webkit-animation: cd-bounce 0.3s;
   -moz-animation: cd-bounce 0.3s;
   animation: cd-bounce 0.3s;
 	background: #d75069;
 }
-
-/* Disabled state */
 .control input:disabled ~ .control__indicator {
 	-webkit-animation: cd-bounce 0.3s;
 	-moz-animation: cd-bounce 0.3s;
@@ -62,20 +52,14 @@
 	opacity: .6;
 	background: #e6e6e6;
 }
-
-/* Check mark */
 .control__indicator:after {
 	position: absolute;
 	display: none;
 	content: '';
 }
-
-/* Show check mark */
 .control input:checked ~ .control__indicator:after {
 	display: block;
 }
-
-/* Radio button inner circle */
 .control--radio .control__indicator:after {
 	top: 7px;
 	left: 7px;
@@ -84,7 +68,6 @@
 	border-radius: 50%;
 	background: #ffffff;
 }
-
 @-webkit-keyframes cd-bounce {
   0%, 100% {
     -webkit-transform: scale(1);
