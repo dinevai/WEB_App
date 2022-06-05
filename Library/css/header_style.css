@@ -2,7 +2,6 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 *,
 *:after,
 *:before {
@@ -10,28 +9,23 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   font-size: 100%;
   font-family: "Open Sans", sans-serif;
   background-color: white;
   margin: 0;
 }
-
 img {
   max-width: 100%;
 }
-
 header {
   position: relative;
   height: 50px;
   background: crimson;
 }
-
 header #cd-logo {
   float: left;
   margin: 0 0 0 5%;
-  /* reduce logo size on mobile and make sure it is left aligned with the transform-origin property */
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   -ms-transform-origin: 0 50%;
@@ -43,30 +37,25 @@ header #cd-logo {
   -o-transform: scale(0.8);
   transform: scale(0.8);
 }
-
 header #cd-logo img,
 header #cd-logo p {
   display: inline-block;
   vertical-align: middle;
 }
-
 header #cd-logo p {
   color: #ffffff;
   font-weight: bold;
   font-size: 1.4rem;
 }
-
 header::after {
   /* clearfix */
   content: "";
   display: table;
   clear: both;
 }
-
 header a {
   text-decoration: none;
 }
-
 @media only screen and (min-width: 768px) {
   header {
     height: 80px;
