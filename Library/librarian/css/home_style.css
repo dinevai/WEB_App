@@ -1,11 +1,9 @@
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: "Open Sans", sans-serif;
 }
-
 #allTheThings {
   width: 90%;
   max-width: 600px;
@@ -15,7 +13,6 @@ body {
   margin-bottom: 10px;
   display: block;
 }
-
 #allTheThings input[type="button"] {
   width: 100%;
   border: none;
@@ -40,7 +37,6 @@ body {
 #allTheThings input[type="button"]:focus {
   outline: none;
 }
-
 #allTheThings input[type="button"]:active {
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -48,7 +44,6 @@ body {
   -o-transform: scale(0.9);
   transform: scale(0.9);
 }
-
 a {
   text-decoration: none;
 }
