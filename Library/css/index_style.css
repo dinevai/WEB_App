@@ -7,35 +7,29 @@
   color: #94aab0;
   display: block;
 }
-
 a{
 	color: #94aab0;
 	text-decoration: none;
 }
-
 #member{
 	display: inline-block;
 }
 #librarian{
   display:inline-block;
 }
-
 #verticalLine {
 	display: inline-block;
 	margin-left: 20px;
     border-left: solid #343642;
     color: crimson;
 }
-
 #librarian-link{
 	margin-left: 20px;
 }
-
 #member, #librarian
 {
 	transition: all .2s ease-in-out;
 }
-
 #member:hover, #librarian:hover
 {
 	transform: scale(1.1);
